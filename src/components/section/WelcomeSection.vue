@@ -2,7 +2,7 @@
   <base-section
     :is-window="true"
     class="welcome"
-    style="background-image: url(/static/wallpaper.jpg)">
+  >
     <h1 class="hello">Hello!</h1>
     <h2 class="hello-sub">My name is <strong>Tobias</strong> and i'm a <span class="changer">{{ changerText }}<span class="cursor"/></span></h2>
     <icon-scroll class="scroll" />
@@ -80,6 +80,7 @@ export default {
       height: 100vh;
       background-size: cover;
       background-position: bottom center;
+      background-image: url(../../assets/static/wallpaper.jpg);
       // position: relative;
       .hello{
         font-size: 4em;

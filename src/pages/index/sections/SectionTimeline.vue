@@ -39,7 +39,7 @@
           <span slot="dot">🎓</span>
           <p class="time">2015 - (2019)</p>
           <p class="content">
-            Studying at FH-Kufstein
+            Study at FH-Kufstein <br> (Currently doing my ERASMUS at <a target="_blank" href="https://www.ua.es/">Universidad de Alicante</a>)
           </p>
         </TimelineItem>
         <TimelineItem>
@@ -61,14 +61,14 @@
           <span slot="dot">🏆</span>
           <p class="time">2012</p>
           <p class="content">
-            2nd Place at Cross Media Competition
+            2<sup>nd</sup> place at Cross Media Competition
           </p>
         </TimelineItem>
         <TimelineItem>
           <span slot="dot">👨‍💻</span>
           <p class="time">March - May 2017</p>
           <p class="content">
-            Co-Founder and Developer of Slothy for iOS (React)
+            Co-Founder and developer of Slothy for iOS (React)
           </p>
         </TimelineItem>
         <TimelineItem>
@@ -80,9 +80,9 @@
         </TimelineItem>
         <TimelineItem>
           <span slot="dot">👨‍💻</span>
-          <p class="time">December 2017 -</p>
+          <p class="time">December 2017 - today</p>
           <p class="content">
-            Vue.js and Node.js developer at cx/omni
+            Vue.js, Node.js and PHP developer at cx/omni
           </p>
         </TimelineItem>
         <TimelineItem>
@@ -100,7 +100,7 @@
         :lg="8">
       <h2>Other things</h2>
       <div>
-        <h3>I speak:</h3>
+        <h3>I speak</h3>
         <ul class="fact-list">
           <li>🇩🇪 German (Deutsch)</li>
           <li>🇬🇧 English</li>
@@ -133,6 +133,12 @@ export default {
 </script>
 
 <style lang="less" >
+#timeline {
+  .ivu-timeline-item-head {
+    background: transparent;
+    padding-left:4px;
+  }
+}
   .time{
     font-size: 14px;
     font-weight: bold;

@@ -3,7 +3,7 @@
     id="aboutMe"
     title="About Me">
     <img
-      src="static/me.jpg"
+      src="../../../assets/static/me.jpg"
       class="img-me">
     <div class="text-block">
       <strong>Hello, my name is Tobias Beck (21),</strong>
@@ -24,7 +24,7 @@
         <a
           href="https://github.com/tobiasbeck/"
           target="_blank">
-          <Icon type="social-github"/>
+          <Icon type="logo-github"/>
         </a>
       </Button>
       <Button
@@ -34,7 +34,7 @@
         <a
           href="https://www.linkedin.com/in/tobias-beck-1131b976"
           target="_blank">
-          <Icon type="social-linkedin"/>
+          <Icon type="logo-linkedin"/>
         </a>
       </Button>
       <Button
@@ -44,7 +44,7 @@
         <a
           href="https://www.facebook.com/tobiasbeck25"
           target="_blank">
-          <Icon type="social-facebook"/>
+          <Icon type="logo-facebook"/>
         </a>
       </Button>
       <Button
@@ -54,7 +54,7 @@
         <a
           href="https://twitter.com/TobiasBeck6"
           target="_blank">
-          <Icon type="social-twitter"/>
+          <Icon type="logo-twitter"/>
         </a>
       </Button>
       <Button
@@ -64,7 +64,7 @@
         <a
           href="https://www.instagram.com/tobibekc/?hl=de"
           target="_blank">
-          <Icon type="social-instagram"/>
+          <Icon type="logo-instagram"/>
         </a>
       </Button>
       <Button
@@ -74,7 +74,7 @@
         <a
           href="mailto:hello@tobibeck.io?subject=tobibeck.io Contact"
           target="_blank">
-          <Icon type="email"/>
+          <Icon type="ios-mail"/>
         </a>
       </Button>
     </div>
@@ -90,7 +90,7 @@ export default {
 
 <style lang="less">
 .img-me {
-      width: 20em;
+      width: 10em;
       border-radius: 50%;
       margin-right: 20px;
       float:left;

@@ -4,7 +4,7 @@
     title="My Projects">
     <div class="sub-block">
       <img
-        src="static/projects/friends.png"
+        src="../../../assets/static/projects/friends.png"
         class="img-project img-left">
       <div class="text-block">
         <h2>Friendsweb.de (2009-2013)</h2>
@@ -12,22 +12,22 @@
           <span class="stack">- PHP, MySQL, Bootstrap, jQuery</span>
         </span>
         <div>
-          <p>Friendsweb was a social network built from scratch in my own cms system. Users were able to sign up, create a profile
-          with your details, a cover photo and a profile picture. They also could post statusupdates, upload pictures, send
-          messages, form groups, create sites for e.g. companies. It even features a realtime chat system.</p>
+          <p>Friendsweb was a social network I built from scratch in my own CMS system. Users were able to sign up, create a profile
+          with their details, a cover photo and a profile picture. They also could post statusupdates, upload pictures, send
+          messages, form groups, create sites for e.g. companies. It even featured a realtime chat system. The main idea was that users had total control about all the data they published ever and all the information we saved about them. Every user could view and delete all the database entries we had about them.</p>
           <p>From the technical viewpoint, i used a PHP 5.x backend with a MySQL Database. For the UI I built a UI Framework first,
-          later switched to Bootstrap. As a JavaScript framework jQuery was used.</p>
-          I developed it as a replacement for my first social network called NDS-NETZ, which was my first Project ever developed in
+          later switched to Bootstrap. As a JavaScript framework I used jQuery.<p>
+          I developed it as a replacement for my first social network called NDS-NETZ, which was my first project ever developed in
           2008</p>
-          <p>At it's peak friendsweb was used by about 70 active members, by about 1000 media objects as photos and videos. I
-          closed it in 2013 as I wanted to focus on other projects, while not a single one of them was finished.</p>
+          <p>At it's peak friendsweb had about 70 active members and about 1000 media objects such as photos and videos. I
+          closed it in 2013 as I wanted to focus on other projects.</p>
         </div>
       </div>
     </div>
 
     <div class="sub-block">
       <img
-        src="static/projects/saufcorn.png"
+        src="../../../assets/static/projects/saufcorn.png"
         class="img-project img-left">
       <div class="text-block">
         <h2>Saufcorn (2016)</h2>
@@ -35,20 +35,20 @@
           <span class="stack">- ionic 3, Node.js, MongoDB, Angular 4, Bootstrap</span>
         </span>
         <div>
-          <p>Saufcorn is a drinking game, develope for iOS and Android in ionic 3. Players can select special card packages to personalize their game .
-          These packages can be obtained by sharing via QR Coded. The Idea was that a user can collect special cards, by visiting special places in real live and scanning QR Codes there. Upon this System never took of, a pack shop was developed, but not yet released.
+          <p>Saufcorn is a drinking game, I developed for iOS and Android in ionic 3. Players can select special card packages to personalize their game.
+          These packages can be obtained by sharing a QR Code. The Idea was that players can collect special cards, by visiting places in real live and scanning QR Codes there. Upon this System never took of, I developed a package shop, but I have not released it yet.
           Saufcorn is the only drinking game with a pink Unicorn and features a really childish humour, paired with a lot of girly pink and purple colors. It has about 400 downloads in Total on iOS and Android.</p>
-          <p>For card authors it has an online card editor that allows authors to create cards, customize and create new packages. All updates can be pushed to the the clients, so packages can update</p>
+          <p>For people who want to create their own cards and packages it has an online card editor that allows authors to create cards, customize and create new packages. All updates can be pushed to the the clients, and players can receive the latest versions of the packages</p>
           <p>You can see the current version and download it on the <a
             href="https://saufcorn.tobibeck.de"
-            target="_blank">saufcorn website (German only)</a></p>
+            target="_blank">saufcorn website (currently German only)</a></p>
         </div>
       </div>
     </div>
 
     <div class="sub-block">
       <img
-        src="static/projects/fhapp.jpg"
+        src="../../../assets/static/projects/fhapp.jpg"
         class="img-project img-left">
       <div class="text-block">
         <h2>FH Kufstein App (2016)</h2>
@@ -56,7 +56,7 @@
           <span class="stack">- ionic 3</span>
         </span>
         <div>
-          <p>2016 I talked to my coordinator at my university about this project. I wanted to build an app that could show you all the lectures a person had, what's server in the mensa for lunch, all the exam dates and you grades. After the university approved the concept, the app was realized as a students-project. We worked really hard, and had our first working prototype after 6 months.</p>
+          <p>2016 I talked to my coordinator at my university about this project. I wanted to build an app that would show all the lectures a person had, what was served in the mensa for lunch, all the exam dates and you grades. After the university approved the concept, the app was realized as a students-project. We had our first working prototype after 6 months and the app got online after about 1 year</p>
           <p>The App is based on ionic 3 and accesses the internal University API's via Rest. You can read more about this on the following links</p>
           <ul>
             <li><a
@@ -64,54 +64,54 @@
               target="_blank">Article about our project (German)</a></li>
             <li><a
               href="https://www.fh-kufstein.ac.at/News/Neue-FH-App-bietet-Studierenden-noch-mehr-praktische-Infos"
-              target="_blank">Article with links to the current store pages</a></li>
+              target="_blank">Article with links to the current store pages (German)</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="sub-block">
       <img
-        src="static/projects/slothy.png"
+        src="../../../assets/static/projects/slothy.png"
         class="img-project img-left">
       <div class="text-block">
-        <h2>Slothy (2017 - 2017)</h2>
+        <h2>Slothy (March 2017 - May 2017)</h2>
         <span class="subtitle">Shared economy for everyone
           <span class="stack">- React-Native, GraphQL, Scaphold</span>
         </span>
         <div>
-          <p>Slothy is your platform to find skilled people or tasks within your area - earn money or get lazy!
+          <p>The App Store description was the following: Slothy is your platform to find skilled people or tasks within your area - earn money or get lazy!
 
           Help is just one click away - Slothy connects you to every skilled person nearby and saves you time and money. On the other hand, it's as simple as never before to earn money or barter stuff -  just offer your skill and get rewarded.
           Slothy is not about money - set the reward yourself! Maybe you can help with something else in exchange or barter stuff you have at home - BE CREATIVE.</p>
-          <p>I was responsible for the iOS deployment and developed the app with my co developer Georg Westner.</p>
+          <p>I was responsible for the iOS deployment and developed the app with Georg Westner, who was responible for the Android optimisation.</p>
         </div>
       </div>
     </div>
     <div class="sub-block">
       <img
-        src="static/projects/swarm.png"
+        src="../../../assets/static/projects/swarm.png"
         class="img-project img-left">
       <div class="text-block">
         <h2>Project Swarm</h2>
-        <span class="subtitle">Visual AI Analysation
+        <span class="subtitle">Traffic analysation on the basis of Artificial Intelligence
           <span class="stack"/>
         </span>
         <div>
-          <p>This is listed for the purpose of completeness. While Georg focused on AI Development, I focused on the development of a Realtime Analasys Platform. This gave me a lot of the input I had for developing Octo</p>
+          <p>We developed a system for analysing travic. The system was built out of edge computing devices, analysing the occuring traffic in realtime. On the backend we had a realtime analysation platform that interpreted the results in realtime. Because of internal reasons, I left Swarm at the end of 2017. My current project Octo is based on some of the concepts I head while working at Swarm.</p>
         </div>
       </div>
     </div>
 
     <div class="sub-block">
       <img
-        src="static/projects/octo.svg"
+        src="../../../assets/static/projects/octo.svg"
         class="img-project img-left">
       <div class="text-block">
-        <h2>Octo (2017-)</h2>
-        <span class="subtitle">A realtime Analasys Platform
+        <h2>Octo (2017-Today)</h2>
+        <span class="subtitle">A realtime analysis platform
         </span>
         <div>
-          <p>This is my current project I'm working on. It is basically a realtime Analasys Platform. More will be added here later</p>
+          <p>This is my current project I'm working on. It is a realtime analysis platform. More will be added here later</p>
         </div>
       </div>
     </div>
@@ -126,7 +126,7 @@ export default {
 </script>
 <style lang="less">
 .img-project {
-      width: 20em;
+      width: 10em;
       border-radius: 50%;
       margin-right: 20px;
       shape-outside: circle(50%);

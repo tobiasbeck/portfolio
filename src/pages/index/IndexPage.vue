@@ -38,7 +38,9 @@ export default {
 
     .media-button {
       font-size:2.2em;
-      outline:none;
+      &:hover {
+        background: none;
+      }
     }
   }
 

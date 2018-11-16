@@ -9,7 +9,7 @@
         size="large"
         class="media-button">
         <a href="mailto:hello@tobibeck.io?subject=tobibeck.io Contact">
-          <Icon type="email"/>
+          <Icon type="ios-mail"/>
         </a>
       </Button>
       <Button
@@ -19,7 +19,7 @@
         <a
           href="https://github.com/tobiasbeck/"
           target="_blank">
-          <Icon type="social-github"/>
+          <Icon type="logo-github"/>
         </a>
       </Button>
       <Button
@@ -29,7 +29,7 @@
         <a
           href="https://www.linkedin.com/in/tobias-beck-1131b976"
           target="_blank">
-          <Icon type="social-linkedin"/>
+          <Icon type="logo-linkedin"/>
         </a>
       </Button>
       <Button
@@ -39,7 +39,7 @@
         <a
           href="https://www.facebook.com/tobiasbeck25"
           target="_blank">
-          <Icon type="social-facebook"/>
+          <Icon type="logo-facebook"/>
         </a>
       </Button>
       <Button
@@ -49,7 +49,7 @@
         <a
           href="https://twitter.com/TobiasBeck6"
           target="_blank">
-          <Icon type="social-twitter"/>
+          <Icon type="logo-twitter"/>
         </a>
       </Button>
       <Button
@@ -59,7 +59,7 @@
         <a
           href="https://www.instagram.com/tobibekc/?hl=de"
           target="_blank">
-          <Icon type="social-instagram"/>
+          <Icon type="logo-instagram"/>
         </a>
       </Button>
     </div>
@@ -85,7 +85,7 @@ export default {
     right: -25px;
     top: -25px;
     bottom: -25px;
-    background-image: url(/static/contact.jpg);
+    background-image: url(../../../assets/static/contact.jpg);
     background-position: center center;
     background-size: cover;
     z-index: -1;
