@@ -7,13 +7,13 @@
       class="img-me">
     <div class="text-block">
       <strong>Hello, my name is Tobias Beck (21),</strong>
-      <p>and I'm a Full Stack Developer based in <a
+      <p>and I'm a full stack developer based in <a
         href="https://goo.gl/maps/Zo7hBtLjhZH2"
-        target="_blank">Munich, Germany</a>. I started coding when I was 11 and always stayed curious.</p> <p>I worked on a few small projects, developed a Social Network called friendsweb.de, was co-founder of Swarm Analytics and I'm now working on my own Data Solution called Octo 🐙</p>
-      <p>I'm working a lot with Vue.js and Node.js. But I also got knowledge in React, Angular, PHP, CSS, HTML, Swift, Java, C and C#. I love building modern Web Applications and thinking outside of the box.</p>
+        target="_blank">Munich, Germany</a>. I started coding when I was 11 and always stayed curious.</p> <p>I worked on a few small projects, developed a social network called friendsweb.de, was a co-founder of Swarm Analytics and I'm now working on my own data solution called Octo 🐙</p>
+      <p>I'm working a lot with Vue.js and Node.js. But I also got knowledge in React, Angular, PHP, CSS, HTML, Swift, Java, C and C#. I love building modern web applications and thinking outside of the box.</p>
       <p>I'm studying "Web Business & Technology" at <a
         href="https://www.fh-kufstein.ac.at/"
-        target="_blank">FH-Kufstein, Tyrol</a>, but currently I'm on a semester abroad in <a
+        target="_blank">FH-Kufstein, Tyrol</a>, but currently, I'm on a semester abroad in <a
           href="https://goo.gl/maps/12WVK1Z8W7w"
           target="_blank">Alicante, Spain.</a></p>
       <p style="margin-top:1.5em;">See what I'm working on here:</p>

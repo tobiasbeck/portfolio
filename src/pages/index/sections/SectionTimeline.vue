@@ -62,6 +62,7 @@
           <p class="time">2012</p>
           <p class="content">
             2<sup>nd</sup> place at Cross Media Competition
+            (My first ever award I got for one of my projects)
           </p>
         </TimelineItem>
         <TimelineItem>
@@ -105,7 +106,7 @@
           <li>🇩🇪 German (Deutsch)</li>
           <li>🇬🇧 English</li>
           <li>🥨 Bavarian (Bayrisch)</li>
-          <li>🇪🇸 Little Spanish (un poco Español)</li>
+          <li>🇪🇸 A little bit Spanish (un poco Español)</li>
         </ul>
       </div>
       <div style="margin-top:0.5em;">
@@ -113,9 +114,9 @@
         <ul class="fact-list">
           <li>I walked the Camino to Santiago (Way of St. James)</li>
           <li>I have 10 toes and 10 fingers</li>
-          <li>I travelled by a Volkswagen Bus through Europe</li>
-          <li>A good bottle of whine only tastes good if it is shared</li>
-          <li>I hiked the hightes mountain on the Iberian Peninsula, the Mulhacén (3479m) </li>
+          <li>I traveled by a Volkswagen Bus through Europe</li>
+          <li>A good bottle of wine only is a good one if it is shared</li>
+          <li>I hiked the highest mountain on the Iberian Peninsula, the Mulhacén (3479m) </li>
           <li>Always have your towel with you</li>
         </ul>
       </div>
