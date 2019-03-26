@@ -2,14 +2,26 @@
   <div id="app">
     <the-navigation />
     <router-view/>
+    <!--<cookie-law theme="tobibeckio"  button-link="/#/legal-notes" @accept="accepted()">-->
+    </cookie-law>
   </div>
 </template>
 
 <script>
 import TheNavigation from './TheNavigation'
+import CookieLaw from 'vue-cookie-law'
 export default {
   name: 'App',
-  components: { TheNavigation }
+  components: { 
+    TheNavigation,
+    CookieLaw
+   },
+   methods: {
+     accepted() {
+       console.log("called");
+       this.$ga.enable();
+     }
+   }
 }
 </script>
 

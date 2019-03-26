@@ -1,8 +1,8 @@
 <template>
   <Header class="header">
-    <div class="name">
+    <router-link to="/" tag="div" class="name">
       <strong>tobi</strong>beck
-    </div>
+    </router-link>
   </Header>
 </template>
 <script>

@@ -12,8 +12,8 @@
           <span class="stack">- PHP, MySQL, Bootstrap, jQuery</span>
         </span>
         <div>
-          <p>This is my current project I'm working on. It is a real-timFriendsweb was a social network I built from scratch in my own CMS system. Users were able to sign up, create a profile
-          with their details, a cover photo and a profile picture. They also could post status updates, upload pictures, send messages, form groups and create sites for e.g. companies. It even featured a real-time chat system. The main idea was that users had total control about all the data they published ever and all the information we saved about them. Every user could view and delete all the database entries we had about them.e analysis platform. More will be added here later</p>
+          <p>Friendsweb was a social network I built from scratch. Users were able to sign up, create a profile
+          with their details, a cover photo and a profile picture. They also could post status updates, upload pictures, send messages, form groups and create sites for e.g. companies. It even featured a real-time chat system. The main idea was that users had total control about all the data they published ever and all the information we saved about them. Every user could view and delete all the database entries we had about them.</p>
           <p>From the technical viewpoint, I used a PHP 5.x backend with a MySQL Database. I built a UI Framework first,
           later switched to Bootstrap. As a JavaScript framework, I used jQuery.<p>
           I developed it as a replacement for my first social network called NDS-NETZ, which was the first project I ever developed in
@@ -96,7 +96,7 @@
           <span class="stack"/>
         </span>
         <div>
-          <p>We developed a system for analyzing traffic. The system was built out of edge computing devices, analyzing the occurring traffic in real-time. On the backend, we had a realtime analyzation platform that interpreted the results in real-time. Because of internal reasons, I left Swarm at the end of 2017. My current project Octo is based on some of the concepts I head while working at Swarm.</p>
+          <p>We developed a system for analyzing traffic. The system was built out of edge computing devices, analyzing the occurring traffic in real-time. On the backend, we had a realtime analyzation platform that interpreted the results in real-time. Because of internal reasons, I left Swarm at the end of 2017. My current project Octo is based on some of the concepts I had while working at Swarm.</p>
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
         class="img-project img-left">
       <div class="text-block">
         <h2>Octo (2017-Today)</h2>
-        <span class="subtitle">A real-time analysis platform
+        <span class="subtitle">A real-time analytics platform - Go
         </span>
         <div>
           <p>This is my current project I'm working on. It is a realtime analysis platform. More will be added here later</p>

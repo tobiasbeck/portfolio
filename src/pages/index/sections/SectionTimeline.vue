@@ -37,9 +37,17 @@
         </TimelineItem>
         <TimelineItem>
           <span slot="dot">🎓</span>
+          <p class="time">Sept. 2018 - Feb 2019</p>
+          <p class="content">
+            
+            ERASMUS at <a target="_blank" href="https://www.ua.es/">Universidad de Alicante</a>
+          </p>
+        </TimelineItem>
+        <TimelineItem>
+          <span slot="dot">🎓</span>
           <p class="time">2015 - (2019)</p>
           <p class="content">
-            Study at FH-Kufstein <br> (Currently doing my ERASMUS at <a target="_blank" href="https://www.ua.es/">Universidad de Alicante</a>)
+            Study at FH-Kufstein
           </p>
         </TimelineItem>
         <TimelineItem>
@@ -83,7 +91,7 @@
           <span slot="dot">👨‍💻</span>
           <p class="time">December 2017 - today</p>
           <p class="content">
-            Vue.js, Node.js and PHP developer at cx/omni
+            Go, Vue.js, Node.js and PHP developer at cx/omni
           </p>
         </TimelineItem>
         <TimelineItem>

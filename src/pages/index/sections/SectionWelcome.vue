@@ -7,7 +7,7 @@ export default {
   components: { WelcomeSection },
   data () {
     return {
-      changer: ['Web Developer', 'JavaScript Enthusiast', 'Node.js Nerd', 'Code Lover', 'climber', 'hiker', 'problemsolver', 'outside of the box thinker']
+      changer: ['Fullstack Developer', 'Code Lover', 'climber', 'hiker', 'problemsolver', 'outside of the box thinker' , 'JavaScript Enthusiast', 'Node.js Nerd']
       // web Enwickler, js lover, node.js nerd, wanderer, kletterer, kreativer, um die ecke denker, problemlöser
     }
   }
