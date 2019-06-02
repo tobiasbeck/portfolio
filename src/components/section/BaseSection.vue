@@ -33,7 +33,8 @@ export default {
   padding-right: 50px;
 
   h1.title {
-      font-size: 2.4em;
+      font-size: 24px;
+      line-height: 32px;
       text-align: center;
   }
 
@@ -41,8 +42,8 @@ export default {
     height: 100vh;
   }
   &.section-text{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     .ivu-row-flex {
       margin-top:15px;
     }

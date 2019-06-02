@@ -22,7 +22,7 @@ export default {
   border: 2px solid #fff;
   border-radius: 25px;
   opacity: 0.75;
-  box-sizing: content-box;
+  box-sizing: content-box !important;
 }
 .scroller {
   width: 3px;

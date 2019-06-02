@@ -1,7 +1,7 @@
 <template>
   <base-section
     :is-window="true"
-    class="welcome"
+    :class="{'welcome': true, 'blur': blur}"
   >
     <h1 class="hello">Hello!</h1>
     <h2 class="hello-sub">My name is <strong>Tobias</strong> and i'm a <span class="changer">{{ changerText }}<span class="cursor"/></span></h2>
@@ -23,7 +23,8 @@ export default {
     return {
       visibleLetters: 0,
       selectedQuote: 0,
-      doChangeText: false
+      doChangeText: false,
+      blur: true,
     }
   },
   computed: {
@@ -36,6 +37,7 @@ export default {
   },
   mounted () {
     this.changeText()
+    setTimeout(() => { this.blur = false; }, 800)
   },
   methods: {
     changeText () {
@@ -78,9 +80,30 @@ export default {
     .welcome{
       padding-top: 24vh;
       height: 100vh;
-      background-size: cover;
-      background-position: bottom center;
-      background-image: url(../../assets/static/wallpaper.jpg);
+      position: relative;
+      z-index: 2;
+      &:before {
+        content: "";
+        position:absolute;
+        z-index: -1;
+        left: 0px;
+        top: -115px;
+        right: 0px;
+        bottom: 0px;
+        background-size: cover;
+        background-position: bottom center;
+        background-image: url(../../assets/static/wallpaper.jpg);
+        transition: all 0.8s ease-in-out;
+        transform: skewY(-6deg);
+        transform-origin: top left;
+      }
+      &.blur:before {
+        filter: blur(14px) brightness(200%);
+         /*left: -30px;
+        top: -30px;
+        right: -30px;
+        bottom: -30px;*/
+      }
       // position: relative;
       .hello{
         font-size: 4em;
@@ -106,7 +129,7 @@ export default {
       }
       .scroll {
         position: absolute;
-        bottom:60px;
+        bottom:100px;
         left: 0px;
         right: 0px;
         margin-left: auto;

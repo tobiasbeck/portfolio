@@ -1,9 +1,11 @@
 <template>
   <div id="app">
+     <a-layout>
     <the-navigation />
     <router-view/>
     <!--<cookie-law theme="tobibeckio"  button-link="/#/legal-notes" @accept="accepted()">-->
     </cookie-law>
+     </a-layout>
   </div>
 </template>
 
@@ -32,6 +34,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
-  font-size: 13px;
+  font-size: 14px;
 }
 </style>

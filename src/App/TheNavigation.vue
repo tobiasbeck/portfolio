@@ -1,9 +1,9 @@
 <template>
-  <Header class="header">
+  <a-layout-header id="the-navigation">
     <router-link to="/" tag="div" class="name">
       <strong>tobi</strong>beck
     </router-link>
-  </Header>
+  </a-layout-header>
 </template>
 <script>
 export default {
@@ -11,7 +11,8 @@ export default {
 }
 </script>
 <style lang="less">
-  .header{
+  #the-navigation{
+    z-index: 3;
     background-color: transparent;
     .name{
       font-size: 1.2em;

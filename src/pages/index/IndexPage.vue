@@ -26,7 +26,8 @@ export default {
     align-items: stretch;
 
     .text-block {
-      max-width: 75vw;
+      max-width: 1024px;
+      text-align: justify
     }
 
     .col-center{

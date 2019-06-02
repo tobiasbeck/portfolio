@@ -3,12 +3,12 @@
 import Vue from 'vue'
 import App from './App/App'
 import router from './router'
-import iView from 'iview'
 import VueIconFont from 'vue-icon-font'
-import './iview-theme.less'
-import './plugins/iview.js'
 import './style.less'
 import VueAnalytics from 'vue-analytics'
+import './antd-variables.less';
+import Antd from 'ant-design-vue'
+Vue.use(Antd)
 
 // Do not want to use this right now
 /*Vue.use(VueAnalytics, {
@@ -17,13 +17,10 @@ import VueAnalytics from 'vue-analytics'
 })*/
 
 Vue.config.productionTip = false
-
-Vue.use(iView)
 Vue.use(VueIconFont)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App },
-  template: '<App/>'
+  render: h => h(App)
 })
