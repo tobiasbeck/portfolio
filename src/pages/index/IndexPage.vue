@@ -28,6 +28,7 @@ export default {
     .text-block {
       max-width: 1024px;
       text-align: justify
+      
     }
 
     .col-center{
@@ -35,13 +36,6 @@ export default {
       flex-direction: row;
       justify-content: center;
       align-items: flex-start;
-    }
-
-    .media-button {
-      font-size:2.2em;
-      &:hover {
-        background: none;
-      }
     }
   }
 

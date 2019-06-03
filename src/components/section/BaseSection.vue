@@ -3,7 +3,6 @@
     :class="{
       section: true,
       'section-window': isWindow,
-      'section-text': isText,
       'section-secondary': isSecondary
   }">
     <slot/>
@@ -13,10 +12,6 @@
 export default {
   props: {
     isWindow: {
-      type: Boolean,
-      default: false
-    },
-    isText: {
       type: Boolean,
       default: false
     },
@@ -41,13 +36,7 @@ export default {
   &.section-window {
     height: 100vh;
   }
-  &.section-text{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    .ivu-row-flex {
-      margin-top:15px;
-    }
-  }
+  
 
   &.section-secondary{
     background-color: #f8f8f9;

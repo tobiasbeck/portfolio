@@ -139,6 +139,13 @@ export default {
 
 .sub-block{
   margin-top:50px;
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  .text-block {
+    flex-grow: 1;
+  }
   .subtitle {
     display:block;
     font-size: 1.2em;
