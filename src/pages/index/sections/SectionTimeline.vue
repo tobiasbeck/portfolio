@@ -45,7 +45,7 @@
         </a-timeline-item>
         <a-timeline-item>
           <span slot="dot"><check-circle-icon /></span>
-          <p class="time">2015 - (2019)</p>
+          <p class="time">2015 - Sept 2019</p>
           <p class="content">
             Study at FH-Kufstein
           </p>
@@ -91,7 +91,7 @@
           <span slot="dot"><code-icon /></span>
           <p class="time">December 2017 - today</p>
           <p class="content">
-            Go, Vue.js, Node.js and PHP developer at cx/omni
+            Chief Software Architect and Go, Vue.js and Node.js developer at cxomni GmbH
           </p>
         </a-timeline-item>
         <a-timeline-item>

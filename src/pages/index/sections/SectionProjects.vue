@@ -114,6 +114,50 @@
         </div>
       </div>
     </div>
+    <div class="sub-block">
+      <img
+        src="../../../assets/static/projects/game.svg"
+        class="img-project img-left">
+      <div class="text-block">
+        <h2>Jocking Hazard (2018)</h2>
+        <span class="subtitle">Web Version of Jocking Hazard Game - Vue, Node.js
+        </span>
+        <div>
+          <p>A Browser based version of a game called Jocking Hazard which is originally made by Cyanide and Happyness.
+            It features a lobby system, a easy way to join the game and a controller and a game screen. It also has some small variants implemented, to spice up the game</p>
+          <p> You can try it out here: <a href="https://jh.tobibeck.io" target="_blank">Jocking Hazard</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="sub-block">
+      <img
+        src="../../../assets/static/projects/game.svg"
+        class="img-project img-left">
+      <div class="text-block">
+        <h2>Avalon (2018)</h2>
+        <span class="subtitle">Web Version of Avalon Boardgame - Vue, Node.js
+        </span>
+        <div>
+          <p>A Browser based version of a game called Avalon which is originally made by Indie Board & Card Games.
+            It features a lobby system, a easy way to join the game and a controller and a game screen. It offers two different options, one is with a central gamefield one is without. That way one mobile phone per player is enough.</p>
+          <p> You can try it out here: <a href="https://avalon.tobibeck.io" target="_blank">Avalon</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="sub-block">
+       <img
+        src="../../../assets/static/projects/hackero.svg"
+        class="img-project img-left">
+            <div class="text-block">
+        <h2>Hackero (2019-Today)</h2>
+        <span class="subtitle">A hacking simulation game - Vue, Node.js
+        </span>
+        <div>
+          <p>This project is based on the original hackerexperience game. I tried to spice it up with realtime connections, and a desktop environment based on Vue.js it also offers a terminal, a editable filesystem, a ingame browser which are also all hackable.</p>
+          <p> You can try it out here: <a href="https://hackero.io" target="_blank">Hackero.io</a></p>
+        </div>
+      </div>
+    </div>
   </text-section>
 </template>
 <script>
