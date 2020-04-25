@@ -24,7 +24,7 @@ export default {
       visibleLetters: 0,
       selectedQuote: 0,
       doChangeText: false,
-      blur: true,
+      blur: true
     }
   },
   computed: {
@@ -36,8 +36,9 @@ export default {
     }
   },
   mounted () {
-    this.changeText()
-    setTimeout(() => { this.blur = false; }, 800)
+    this.visibleLetters = this.changer[this.selectedQuote].length
+    setTimeout(() => { this.blur = false }, 600)
+    setTimeout(() => { this.changeText()}, 1600)
   },
   methods: {
     changeText () {

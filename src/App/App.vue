@@ -28,9 +28,10 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 #app {
-  font-family: 'Work Sans', 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;

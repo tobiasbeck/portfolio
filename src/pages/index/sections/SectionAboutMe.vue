@@ -11,7 +11,7 @@
         <p>I also worked on a few small projects, developed a social network called friendsweb.de, was a co-founder of Swarm Analytics and I'm now working on my own data solution called Octo 🐙</p>
         <p>I'm working a lot with Go, Vue.js and Node.js. But I also got knowledge in Go, React, Angular, PHP, CSS, HTML, Swift, Java, C and C#. I love building modern applications and thinking outside of the box.</p>
         <p>
-          I studied in "Web Business & Technology" at
+          I studied "Web Business & Technology" at
           <a href="https://www.fh-kufstein.ac.at/" target="_blank">FH-Kufstein, Tyrol</a> and I'm now living in Munich, Germany.
         </p>
         <p style="margin-top:1.5em;">See what I'm working on here:</p>
